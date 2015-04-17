@@ -1,0 +1,10 @@
+Package: DataprepMisc
+Type: Package
+Title: collection of independent functions for data prepration
+Version: 0.1
+Date: 2015-04-17
+Author: Christine Hohensinn, Manuel Reif
+Maintainer: Christine Hohensinn <christine.hohensinn@univie.ac.at>
+Suggests: roxygen2
+Description: a loose collection of different functions for making some tricky steps in data preparation more convenient by automatization.
+License: GPL-3
