@@ -1,0 +1,7 @@
+*.Rdata
+*~
+dontgit
+wiki
+*.Rhistory
+.Rproj.user
+*.Rproj
