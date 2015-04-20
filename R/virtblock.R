@@ -6,10 +6,12 @@
 #' @param where_items index vector which indicates which items have to be split
 #' @param where_group index of the grouping variable (scalar)
 #' @param pos_key integer matrix; feature x items; start with 1!
-#' @return expanded data matrix with the split columns
+#' @return list of expanded data matrix with the split columns; each list element contains the new columns representing the expandation of one column in the original data matrix; colname shows which feature the new columns have
 #'
 #'@author Manuel Reif, Christine Hohensinn
-
+#'
+#'
+#'@example ./R/.example-virtblock.R
 
 virtblock<- function(data, where_items, where_group, pos_key)
 {
